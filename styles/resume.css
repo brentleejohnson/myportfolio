@@ -126,69 +126,12 @@
   width: 100%;
 }
 
-.skills-details {
-  display: flex;
-  flex-wrap: wrap;
-}
-
-.skills-heading {
-  display: flex;
-  flex-wrap: nowrap;
-  text-align: center;
-  padding: 5%;
-}
-
-.skills-heading i {
-  font-size: 200%;
-  color: #906ba5;
-  margin-right: 1vw;
-}
-
-.coding {
-  max-width: 50%;
-  width: 100%;
-  display: flex;
-  flex-wrap: wrap;
-}
-
 .coding-icons {
+  display: flex;
+  flex-wrap: wrap;
   font-size: 700%;
   color: #906ba5;
-  margin: 5%;
-}
-
-.knowledge {
-  max-width: 50%;
-  width: 100%;
-}
-
-.knowledge li {
-  margin: 2%;
-  font-size: 140%;
-  font-weight: bold;
-  color: rgb(58, 58, 58);
-}
-
-.knowledge li ul li {
-  font-size: 100%;
-}
-
-@media screen and (max-width: 1400px) {
-  .skills-details {
-    display: flex;
-    flex-direction: column;
-  }
-
-  .coding {
-    max-width: 100%;
-    width: 100%;
-    border-bottom: 1px lightgrey solid;
-  }
-
-  .knowledge {
-    max-width: 100%;
-    width: 100%;
-  }
+  gap: 5%;
 }
 
 @media screen and (max-width: 1200px) {
