@@ -175,6 +175,20 @@ body {
   opacity: 1;
 }
 
+@media screen and (max-width: 1520px) {
+  .landing {
+    height: 90vh;
+  }
+
+  .landing-details {
+    height: 35vh;
+  }
+
+  .landing-icons {
+    padding: 0;
+  }
+}
+
 @media screen and (max-width: 1400px) {
   .landing {
     width: 33vw;
