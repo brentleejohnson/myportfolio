@@ -118,6 +118,7 @@
   width: 15vw;
 }
 
+/* 1400px */
 @media screen and (max-width: 1400px) {
   .about-details {
     display: flex;
@@ -164,5 +165,23 @@
 
   .demo-answ ul {
     text-align: left;
+  }
+}
+
+/* 1300px */
+@media screen and (max-width: 1300px) {
+  .pass-hobb {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .pass-hobb-card {
+    max-width: 100%;
+    margin-bottom: 3vh;
+  }
+
+  .pass-hobb-card p {
+    width: 100%;
+    text-align: center;
   }
 }

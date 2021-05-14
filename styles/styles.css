@@ -197,4 +197,7 @@ body {
 }
 
 @media screen and (max-width: 1400px) {
+  .landing {
+    width: 33vw;
+  }
 }
