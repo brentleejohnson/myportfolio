@@ -27,14 +27,6 @@
 }
 
 .contact-label {
-  font-weight: bold;
-  margin-right: 2%;
-  background: linear-gradient(to right, #906ba5 0%, #323232 100%);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-}
-
-#message-label {
   display: none;
 }
 
@@ -46,6 +38,8 @@
   padding: 2% 3%;
   width: 100%;
   border-radius: 10px;
+  border: none;
+  border-bottom: 1px purple solid;
 }
 
 .contact-button {
@@ -59,7 +53,7 @@
 
 .contact-button:hover {
   border-color: 2px lightgrey solid;
-  background-color: #906ba5;
+  background-color: violet;
   color: white;
   transition: 0.3s ease-in;
 }
