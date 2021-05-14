@@ -190,3 +190,27 @@
     width: 100%;
   }
 }
+
+@media screen and (max-width: 1200px) {
+  #resume h1 {
+    text-align: center;
+  }
+
+  .resume-details {
+    flex-direction: column;
+  }
+
+  .edu {
+    max-width: 100%;
+    align-items: center;
+    text-align: center;
+    border-right: none;
+    border-bottom: 1px lightgrey solid;
+  }
+
+  .exp {
+    max-width: 100%;
+    align-items: center;
+    text-align: center;
+  }
+}

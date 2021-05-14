@@ -57,7 +57,7 @@
 }
 
 .proj-card-info h3 {
-  color: #646464;
+  text-shadow: 0 0 3px violet;
   font-weight: lighter;
   font-size: 110%;
   text-align: center;
@@ -92,4 +92,20 @@
   color: #906ba5;
   font-size: larger;
   transition: 0.3s all ease-in;
+}
+
+@media screen and (max-width: 1200px) {
+  .proj-details {
+    flex-direction: column;
+  }
+
+  .proj-cards {
+    max-width: 100%;
+    width: 100%;
+  }
+
+  .proj-cards img,
+  .proj-card-info {
+    max-width: none;
+  }
 }

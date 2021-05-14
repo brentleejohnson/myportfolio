@@ -185,3 +185,9 @@
     text-align: center;
   }
 }
+
+@media screen and (max-width: 1300px) {
+  #about h1 {
+    text-align: center;
+  }
+}
