@@ -30,7 +30,7 @@ body {
 .container {
   display: flex;
   flex-direction: row;
-  height: 70vh;
+  height: 70%;
 }
 
 .nav-container {
@@ -92,7 +92,7 @@ body {
 }
 
 .landing {
-  max-width: 27vw;
+  width: 480px;
   background-color: white;
   border-radius: 5px;
   overflow: hidden;
@@ -172,6 +172,7 @@ body {
   height: 68vh;
   position: relative;
   margin-top: 10px;
+  margin-bottom: 10px;
   background: white;
 }
 
@@ -193,4 +194,7 @@ body {
   overflow-y: auto;
   left: 0;
   opacity: 1;
+}
+
+@media screen and (max-width: 1400px) {
 }

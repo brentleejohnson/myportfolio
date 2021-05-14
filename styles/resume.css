@@ -172,3 +172,21 @@
 .knowledge li ul li {
   font-size: 100%;
 }
+
+@media screen and (max-width: 1400px) {
+  .skills-details {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .coding {
+    max-width: 100%;
+    width: 100%;
+    border-bottom: 1px lightgrey solid;
+  }
+
+  .knowledge {
+    max-width: 100%;
+    width: 100%;
+  }
+}
