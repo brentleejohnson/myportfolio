@@ -1,0 +1,119 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+#about {
+  display: flex;
+  flex-direction: column;
+  font-family: sans-serif;
+}
+
+.pur-text {
+  color: #906ba5;
+}
+
+#about h1 {
+  font-size: 120%;
+  padding-bottom: 3vh;
+  border-bottom: 1px lightgrey solid;
+  color: rgb(58, 58, 58);
+}
+
+.about-details {
+  display: flex;
+  flex-wrap: wrap;
+  margin-bottom: 3vh;
+}
+
+.intro {
+  display: flex;
+  flex-direction: column;
+  max-width: 50%;
+  width: 100%;
+  border-right: 1px lightgrey solid;
+  color: #646464;
+  line-height: 200%;
+}
+
+.intro h3 {
+  font-weight: bold;
+  font-size: 100%;
+  margin-top: 3vh;
+  color: rgb(58, 58, 58);
+}
+
+.intro p {
+  width: 15vw;
+}
+
+.demographics {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  max-width: 50%;
+  width: 100%;
+  font-size: 100%;
+  list-style: none;
+  padding-top: 3vh;
+  padding-left: 1vw;
+  padding-right: 1vw;
+}
+
+.demographics ul {
+  list-style: none;
+}
+
+.demo-details li {
+  background-color: #906ba5;
+  border-radius: 5px;
+  color: white;
+  margin-bottom: 4vh;
+  width: min-content;
+  padding: 0.2vw;
+}
+
+.demo-answ ul {
+  text-align: right;
+}
+
+.demo-answ li {
+  margin-bottom: 4vh;
+  padding: 0.2vw;
+}
+
+.pass-hobb {
+  display: flex;
+  flex-wrap: wrap;
+  color: #646464;
+  margin-top: 3vh;
+}
+
+.pass-hobb-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 50%;
+  width: 100%;
+  margin-bottom: 1vh;
+}
+
+.pass-hobb-card i {
+  font-size: 200%;
+  background-color: #906ba5;
+  color: white;
+  padding: 5%;
+  border-radius: 70%;
+  margin-bottom: 1vh;
+}
+
+.pass-hobb-card h3 {
+  color: rgb(58, 58, 58);
+  margin-bottom: 1vh;
+}
+
+.pass-hobb-card p {
+  line-height: 200%;
+  width: 15vw;
+}

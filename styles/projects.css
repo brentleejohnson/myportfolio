@@ -1,0 +1,95 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+#projects h1 {
+  font-size: 120%;
+  padding-bottom: 3vh;
+  border-bottom: 1px lightgrey solid;
+  color: rgb(58, 58, 58);
+}
+
+.proj-details {
+  display: flex;
+  flex-wrap: wrap;
+  padding-top: 5vh;
+}
+
+.proj-cards {
+  max-width: 50%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 6vh;
+  position: relative;
+  height: 200px;
+  width: 300px;
+  overflow: hidden;
+}
+
+.proj-cards img,
+.proj-card-info {
+  max-width: 15vw;
+  border-radius: 5px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  height: 100%;
+  object-fit: cover;
+}
+
+.proj-card-info {
+  opacity: 0;
+  background-color: rgba(0, 0, 0, 0.8);
+  transition: all 0.3s linear;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.proj-card-info:hover {
+  opacity: 1;
+}
+
+.proj-card-info h3 {
+  color: #646464;
+  font-weight: lighter;
+  font-size: 110%;
+  text-align: center;
+  margin-top: 1.5vh;
+  margin-bottom: 1vh;
+}
+
+.proj-buttons {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin-bottom: 2vh;
+}
+
+.proj-button {
+  border: none;
+  color: #646464;
+  font-weight: normal;
+  font-size: 200%;
+  background: transparent;
+}
+
+.proj-button a {
+  color: #646464;
+}
+
+.proj-button a:visited {
+  color: #646464;
+}
+
+.proj-button:hover a {
+  color: #906ba5;
+  font-size: larger;
+  transition: 0.3s all ease-in;
+}

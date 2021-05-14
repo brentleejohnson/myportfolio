@@ -1,0 +1,32 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* .owl-dots {
+  text-align: center;
+}
+
+.owl-theme .owl-dots .owl-dot {
+  height: 4px;
+  width: 4px;
+  border-radius: 50%;
+  background: #e9e2c3;
+  border: 1px solid #e9e2c3;
+  outline: none;
+  margin-left: 20px;
+  transition: 0.3s ease-in;
+  margin-top: 50px;
+}
+
+.owl-theme .owl-dots .owl-dot.active,
+.owl-theme .owl-dots .owl-dot:hover {
+  width: 20px;
+  border-radius: 5px;
+}
+
+.owl-theme .owl-dots .owl-dot span {
+  padding-top: 20px;
+  opacity: 0;
+} */

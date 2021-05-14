@@ -1,0 +1,174 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+#resume h1 {
+  font-size: 120%;
+  padding-bottom: 3vh;
+  border-bottom: 1px lightgrey solid;
+  color: rgb(58, 58, 58);
+}
+
+.resume-heading {
+  display: flex;
+  flex-wrap: nowrap;
+  text-align: center;
+  padding: 5%;
+}
+
+.resume-heading i {
+  font-size: 200%;
+  color: #906ba5;
+  margin-right: 1vw;
+}
+
+.resume-details {
+  display: flex;
+  flex-wrap: wrap;
+  margin-bottom: 3vh;
+}
+
+.edu {
+  display: flex;
+  flex-direction: column;
+  max-width: 50%;
+  width: 100%;
+  border-right: 1px lightgrey solid;
+  color: rgb(58, 58, 58);
+  padding: 0.5vw;
+}
+
+.edu-cards {
+  margin-bottom: 2vh;
+}
+
+.edu-cards span {
+  font-family: 70%;
+  font-weight: lighter;
+  width: 9vw;
+  margin-top: 5%;
+  margin-bottom: 1.5vh;
+  color: #646464;
+}
+
+.edu-cards h4 {
+  font-weight: lighter;
+  color: #646464;
+  margin-bottom: 1vh;
+}
+
+.edu-cards p {
+  line-height: 200%;
+}
+
+.exp {
+  display: flex;
+  flex-direction: column;
+  max-width: 50%;
+  width: 100%;
+  color: rgb(58, 58, 58);
+  padding: 0.5vw;
+}
+
+.exp-cards-main {
+  margin-bottom: 6vh;
+}
+
+.exp-cards-main span {
+  font-family: 70%;
+  color: #906ba5;
+  border: 1px #906ba5 solid;
+  font-weight: lighter;
+  width: 9vw;
+  margin-top: 5%;
+  margin-bottom: 4%;
+}
+
+.exp-cards-main h4 {
+  font-weight: lighter;
+  color: #646464;
+  margin-bottom: 1vh;
+}
+
+.exp-cards-main p {
+  line-height: 200%;
+}
+
+.exp-cards {
+  margin-bottom: 2vh;
+}
+
+.exp-cards span {
+  font-family: 70%;
+  font-weight: lighter;
+  width: 9vw;
+  text-align: center;
+  margin-top: 5%;
+  margin-bottom: 4%;
+  color: #646464;
+}
+
+.exp-cards h4 {
+  font-weight: lighter;
+  color: #646464;
+  margin-bottom: 1vh;
+}
+
+.exp-cards p {
+  line-height: 200%;
+}
+
+/* SKILLS */
+.skills {
+  margin-top: 5vh;
+  width: 100%;
+}
+
+.skills-details {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.skills-heading {
+  display: flex;
+  flex-wrap: nowrap;
+  text-align: center;
+  padding: 5%;
+}
+
+.skills-heading i {
+  font-size: 200%;
+  color: #906ba5;
+  margin-right: 1vw;
+}
+
+.coding {
+  max-width: 50%;
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.coding-icons {
+  font-size: 700%;
+  color: #906ba5;
+  margin: 5%;
+}
+
+.knowledge {
+  max-width: 50%;
+  width: 100%;
+}
+
+.knowledge li {
+  margin: 2%;
+  font-size: 140%;
+  font-weight: bold;
+  color: rgb(58, 58, 58);
+}
+
+.knowledge li ul li {
+  font-size: 100%;
+}

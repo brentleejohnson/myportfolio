@@ -1,0 +1,196 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: sans-serif;
+  background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+  background-size: 400% 400%;
+  animation: gradient 15s ease infinite;
+}
+
+@keyframes gradient {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+.container {
+  display: flex;
+  flex-direction: row;
+  height: 70vh;
+}
+
+.nav-container {
+  margin-right: 10px;
+  margin-top: 15px;
+  position: relative;
+  z-index: 100;
+}
+
+.navbar-blocks {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  padding: 1vw 0.4vw;
+  width: 100%;
+  font-size: 13px;
+  font-weight: bold;
+  text-transform: uppercase;
+  background-color: white;
+  color: #323232;
+  border: none;
+  border-bottom: 1px lightgrey solid;
+}
+
+.nav-container i {
+  margin-bottom: 7px;
+}
+
+.navbar-blocks:hover {
+  color: #906ba5;
+  text-decoration: none;
+  transition: 0.3s ease-in;
+}
+
+.theme {
+  font-size: 25px;
+  border-radius: 5px;
+  overflow: hidden;
+  width: 100%;
+  transition: 0.3s ease-in;
+}
+
+.theme:hover {
+  color: #906ba5;
+  background-color: white;
+  text-decoration: none;
+}
+
+.theme:active {
+  color: #906ba5;
+  background-color: white;
+  text-decoration: none;
+}
+
+#navbar {
+  margin-top: 10px;
+  border-radius: 5px;
+  overflow: hidden;
+}
+
+.landing {
+  max-width: 27vw;
+  background-color: white;
+  border-radius: 5px;
+  overflow: hidden;
+  -webkit-border-radius: 5px;
+  border-radius: 5px;
+  -webkit-box-shadow: -10px -10px 20px #906ba5;
+  box-shadow: -10px -10px 20px #906ba5;
+  position: relative;
+  z-index: 100;
+}
+
+.landing img {
+  object-fit: cover;
+  width: 100%;
+}
+
+/* .landing img::before {
+  z-index: 3;
+}
+
+.landing img::after {
+  z-index: 3;
+} */
+
+.landing-details {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 50px;
+}
+
+.landing-details h1 {
+  font-size: 2vw;
+  font-weight: lighter;
+  color: #323232;
+  text-align: center;
+}
+
+.landing-details h4 {
+  text-align: center;
+  margin-top: 10px;
+  font-weight: lighter;
+  font-size: 105%;
+  color: #906ba5;
+}
+
+.landing-icons {
+  display: flex;
+  flex-direction: row;
+  margin-top: 10%;
+  font-size: 250%;
+  padding: 10%;
+  letter-spacing: 25px;
+}
+
+.github {
+  color: #323232;
+}
+
+.github:hover {
+  color: #906ba5;
+  transition: 0.3s ease-in;
+}
+
+.linkedin {
+  color: #323232;
+}
+
+.linkedin:hover {
+  color: #906ba5;
+  transition: 0.3s ease-in;
+}
+
+.tab-container {
+  width: 37vw;
+  height: 68vh;
+  position: relative;
+  margin-top: 10px;
+  background: white;
+}
+
+.content {
+  /* display: none; */
+  position: absolute;
+  left: -100%;
+  opacity: 0;
+  width: 100%;
+  overflow: hidden;
+  transition: all 0.2s linear;
+  background: rgba(255, 255, 255, 0.3);
+  height: 100%;
+  padding: 30px;
+}
+
+.content.active {
+  /* display: flex; */
+  overflow-y: auto;
+  left: 0;
+  opacity: 1;
+}

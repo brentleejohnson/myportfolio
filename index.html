@@ -1,0 +1,625 @@
+<!DOCTYPE html>
+<html lang="en-ZA">
+  <head>
+    <!-- META TAGS -->
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- TITLE -->
+    <title>Portfolio</title>
+    <!-- 3rd Party Stylesheets -->
+    <link
+      rel="stylesheet"
+      href="./scripts/OwlCarousel2-2.3.4/dist/assets/owl.carousel.css"
+    />
+    <link
+      rel="stylesheet"
+      href="./scripts/OwlCarousel2-2.3.4/dist/assets/owl.theme.default.css"
+    />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+    <script src="https://code.iconify.design/1/1.0.7/iconify.min.js"></script>
+    <!-- FONT AWESOME -->
+    <script
+      src="https://kit.fontawesome.com/2822e841b6.js"
+      crossorigin="anonymous"
+    ></script>
+    <!-- Personal Stylehseets -->
+    <link rel="stylesheet" href="./styles/styles.css" />
+    <link rel="stylesheet" href="./styles/about.css" />
+    <link rel="stylesheet" href="./styles/resume.css" />
+    <link rel="stylesheet" href="./styles/projects.css" />
+    <link rel="stylesheet" href="./styles/styles/testimonials.css" />
+    <link rel="stylesheet" href="./styles/contact.css" />
+  </head>
+
+  <body>
+    <!-- CONTAINER -->
+    <div class="container">
+      <!-- NAVBAR CONTAINER -->
+      <div class="nav-container">
+        <button class="navbar-blocks theme" onclick="toggleTheme()">
+          <i class="fas fa-bars"></i>
+        </button>
+
+        <!-- NAVBAR -->
+        <nav id="navbar">
+          <ul style="list-style-type: none">
+            <li>
+              <button class="navbar-blocks" onclick="showTab('about')">
+                <span><i class="fas fa-user"></i></span><br />About
+              </button>
+            </li>
+            <li>
+              <button class="navbar-blocks" onclick="showTab('resume')">
+                <span><i class="fas fa-list-alt"></i></span><br />Resume
+              </button>
+            </li>
+            <li>
+              <button class="navbar-blocks" onclick="showTab('projects')">
+                <span><i class="fas fa-paint-brush"></i></span><br />Projects
+              </button>
+            </li>
+            <li>
+              <button class="navbar-blocks" onclick="showTab('testimonials')">
+                <span><i class="fas fa-comment-dots"></i></span
+                ><br />Testimonials
+              </button>
+            </li>
+            <li>
+              <button class="navbar-blocks" onclick="showTab('contact')">
+                <span><i class="fas fa-at"></i></span><br />Contact
+              </button>
+            </li>
+            <!-- <li class="navbar-blocks">
+              <a href="./resume.html"
+                ><span><i class="fas fa-list-alt"></i></span><br />Resume</a
+              >
+            </li>
+            <li class="navbar-blocks">
+              <a href="./projects.html"
+                ><span><i class="fas fa-paint-brush"></i></span
+                ><br />Projects</a
+              >
+            </li>
+            <li class="navbar-blocks">
+              <a href="./testimonials.html"
+                ><span><i class="fas fa-comment-dots"></i></span
+                ><br />Testimonials</a
+              >
+            </li>
+            <li class="navbar-blocks">
+              <a href="./contact.html"
+                ><span><i class="fas fa-at"></i></span><br />Contact</a
+              >
+            </li> -->
+          </ul>
+        </nav>
+      </div>
+
+      <!-- LANDING PAGE -->
+      <section class="landing">
+        <img src="./images/woody.jpg" alt="Self Portrait" />
+        <div class="landing-details">
+          <div>
+            <h1>Brent Lee Johnson</h1>
+            <h4 data-aos="fade-up" data-aos-duration="3000">
+              Frontend Developer
+            </h4>
+          </div>
+          <div class="landing-icons">
+            <a
+              href="https://github.com/brentleejohnson"
+              class="github"
+              target="_blank"
+              ><i class="fab fa-github"></i
+            ></a>
+            <a
+              href="https://www.linkedin.com/in/brent-johnson-4b7450208/"
+              class="linkedin"
+              target="_blank"
+              ><i class="fab fa-linkedin-in"></i
+            ></a>
+          </div>
+        </div>
+      </section>
+
+      <!-- SECTION -->
+      <div class="tab-container">
+        <!-- ABOUT ME -->
+        <section id="about" class="content active">
+          <h1><span class="pur-text">About</span> Me</h1>
+          <!-- DETAILS -->
+          <div class="about-details">
+            <div class="intro">
+              <h3>Hello! I'm Brent Johnson</h3>
+              <p>
+                An enthusiastic web developer from South Africa. I have
+                intermediate experience in website design and building and
+                always up for a broadening my capabilities.
+              </p>
+            </div>
+            <!-- DEMOGRAPHICS -->
+            <div class="demographics">
+              <div class="demo-details">
+                <ul>
+                  <li>Age</li>
+                  <li>Residence</li>
+                  <li>Occupation</li>
+                  <li>Address</li>
+                </ul>
+              </div>
+              <div class="demo-answ">
+                <ul>
+                  <li>19</li>
+                  <li>South Africa</li>
+                  <li>Life Choices</li>
+                  <li>Cape Town</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <!-- PASSION & HOBBIES -->
+          <div>
+            <h1>
+              <span class="pur-text">Pass</span>ion &
+              <span class="pur-text">Hobb</span>ies
+            </h1>
+            <div class="pass-hobb">
+              <div class="pass-hobb-card">
+                <i class="fas fa-code"></i>
+                <h3>Web Development</h3>
+                <p>
+                  Intermediate knowledge with flexibile creativity daring enough
+                  for challenges
+                </p>
+              </div>
+              <div class="pass-hobb-card">
+                <i class="fas fa-music"></i>
+                <h3>Jazz Piano</h3>
+                <p>
+                  Grade 5 knowledge of music theory and 5 years experience of
+                  jazz piano
+                </p>
+              </div>
+              <div class="pass-hobb-card">
+                <i class="fas fa-gamepad"></i>
+                <h3>Gaming</h3>
+                <p>
+                  Grew up within the gaming industry, soon will be making them
+                </p>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <!-- RESUME -->
+        <section id="resume" class="content">
+          <h1><span class="pur-text">Res</span>ume</h1>
+          <div class="resume-details">
+            <!-- EDUCATION -->
+            <div class="edu">
+              <div class="resume-heading">
+                <i class="fas fa-graduation-cap"></i>
+                <h1>Education</h1>
+              </div>
+              <div class="edu-cards">
+                <span>Matriculated 2020</span>
+                <h3>South Peninsula</h3>
+                <h4>Diep River</h4>
+                <p>
+                  Matriculated at South Peninsula High School during the
+                  pandemic of Covid19
+                </p>
+              </div>
+            </div>
+            <!-- EXPERIENCE -->
+            <div class="exp">
+              <div class="resume-heading">
+                <i class="fas fa-briefcase"></i>
+                <h1>Experience</h1>
+              </div>
+              <div class="exp-cards-main">
+                <span>2021 - Present</span>
+                <h3>Life Choices</h3>
+                <h4>Lansdowne</h4>
+                <p>
+                  Doing an internship at Life Chocies as a software developer
+                </p>
+              </div>
+              <div class="exp-cards">
+                <span>2019</span>
+                <h3>NexusNet</h3>
+                <h4>Wynberg</h4>
+                <p>
+                  Worked part-time at NexusNet as a technician installing
+                  wireless and internet cables
+                </p>
+              </div>
+            </div>
+            <!-- SKILLS -->
+            <div class="skills">
+              <h1><span class="pur-text">Ski</span>lls</h1>
+              <div class="skills-details">
+                <div class="coding">
+                  <div class="skills-heading">
+                    <i class="fas fa-code"></i>
+                    <h1>Coding</h1>
+                  </div>
+                  <div class="coding-icons">
+                    <i class="fab fa-html5"></i>
+                    <i class="fab fa-css3-alt"></i>
+                    <i class="fab fa-python"></i>
+                  </div>
+                </div>
+                <!-- OTHER KNOWLEDGE -->
+                <div class="knowledge">
+                  <div class="skills-heading">
+                    <i class="fas fa-list-alt"></i>
+                    <h1>Other Knowledge</h1>
+                  </div>
+                  <ul>
+                    <li>Jazz piano</li>
+                    <li>Clarinet</li>
+                    <li>Read music sheet</li>
+                    <li>
+                      Internet installation
+                      <ul>
+                        <li>Wireless</li>
+                        <li>Ethernet</li>
+                      </ul>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <!-- PROJECTS -->
+        <section id="projects" class="content">
+          <h1><span class="pur-text">Proj</span>ects</h1>
+          <div class="proj-details">
+            <!-- CONTACT FORM -->
+            <div class="proj-cards">
+              <!-- IMAGEs -->
+              <img src="./images/contactform.png" alt="Contact Form" />
+              <!-- INFO -->
+              <div class="proj-card-info">
+                <h3>Contact Form</h3>
+                <!-- BUTTONS -->
+                <div class="proj-buttons">
+                  <button class="proj-button">
+                    <a
+                      href="https://happy-poincare-756dfc.netlify.app"
+                      target="_blank"
+                      ><span
+                        class="iconify"
+                        data-icon="cib:netlify"
+                        data-inline="false"
+                      ></span
+                    ></a>
+                  </button>
+                  <button class="proj-button">
+                    <a
+                      href="https://github.com/brentleejohnson/glassmorphic-contact-form"
+                      target="_blank"
+                      ><i class="fab fa-github"></i
+                    ></a>
+                  </button>
+                </div>
+              </div>
+            </div>
+            <!-- MY TIMELINE -->
+            <div class="proj-cards">
+              <!-- IMAGE -->
+              <img src="./images/mytimeline.png" alt="My Timeline" />
+              <!-- INFO -->
+              <div class="proj-card-info">
+                <h3>My Timeline</h3>
+                <!-- BUTTONS -->
+                <div class="proj-buttons">
+                  <button class="proj-button">
+                    <a
+                      href="https://youthful-villani-418fe3.netlify.app"
+                      target="_blank"
+                      ><span
+                        class="iconify"
+                        data-icon="cib:netlify"
+                        data-inline="false"
+                      ></span
+                    ></a>
+                  </button>
+                  <button class="proj-button">
+                    <a
+                      href="https://github.com/brentleejohnson/glassmorphic-timeline"
+                      target="_blank"
+                      ><i class="fab fa-github"></i
+                    ></a>
+                  </button>
+                </div>
+              </div>
+            </div>
+            <!-- SNEAKER STORE -->
+            <div class="proj-cards">
+              <!-- IMAGE -->
+              <img src="./images/sneakerstore.png" alt="Sneaker Store" />
+              <!-- INFO -->
+              <div class="proj-card-info">
+                <h3>Sneaker Store</h3>
+                <!-- BUTTONS -->
+                <div class="proj-buttons">
+                  <button class="proj-button">
+                    <a
+                      href="https://youthful-villani-418fe3.netlify.app"
+                      target="_blank"
+                      ><span
+                        class="iconify"
+                        data-icon="cib:netlify"
+                        data-inline="false"
+                      ></span
+                    ></a>
+                  </button>
+                  <button class="proj-button">
+                    <a
+                      href="https://github.com/brentleejohnson/sneaker_store"
+                      target="_blank"
+                      ><i class="fab fa-github"></i
+                    ></a>
+                  </button>
+                </div>
+              </div>
+            </div>
+            <!-- ADDING 2 NUMBERS -->
+            <div class="proj-cards">
+              <!-- IMAGE -->
+              <img src="./images/adding2numbers.png" alt="Adding 2 Numbers" />
+              <!-- INFO -->
+              <div class="proj-card-info">
+                <h3>Adding 2 Numbers</h3>
+                <!-- BUTTONS -->
+                <div class="proj-buttons">
+                  <button class="proj-button">
+                    <a
+                      href="https://replit.com/@yourstepbro1/tkinteradd2numbers#tkinter_add_2_numbers.py"
+                      target="_blank"
+                      ><span
+                        class="iconify"
+                        data-icon="cib:netlify"
+                        data-inline="false"
+                      ></span
+                    ></a>
+                  </button>
+                  <button class="proj-button">
+                    <a
+                      href="https://github.com/brentleejohnson/tkinter_add_2_numbers"
+                      target="_blank"
+                      ><i class="fab fa-github"></i
+                    ></a>
+                  </button>
+                </div>
+              </div>
+            </div>
+            <!-- BMI CALCULATOR -->
+            <div class="proj-cards">
+              <!-- IMAGE -->
+              <img src="./images/BMIcalculator.png" alt="BMI Calculator" />
+              <!-- INFO -->
+              <div class="proj-card-info">
+                <h3>BMI Calculator</h3>
+                <!-- BUTTONS -->
+                <div class="proj-buttons">
+                  <button class="proj-button">
+                    <a
+                      href="https://replit.com/@yourstepbro1/tkinter-BMI-calculator#main.py"
+                      target="_blank"
+                      ><span
+                        class="iconify"
+                        data-icon="cib:netlify"
+                        data-inline="false"
+                      ></span
+                    ></a>
+                  </button>
+                  <button class="proj-button">
+                    <a
+                      href="https://github.com/brentleejohnson/tkinter-BMI-calculator"
+                      target="_blank"
+                      ><i class="fab fa-github"></i
+                    ></a>
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <!-- TESTIMONIALS -->
+        <section id="testimonials" class="content">
+          <div class="owl-carousel owl-theme">
+            <!-- JASON WANDRAG -->
+            <div
+              style="display: flex; flex-direction: column; align-items: center"
+            >
+              <img
+                src="./images/jasonwandrag.jpg"
+                alt="Picture of Jason Wandrag"
+                style="max-width: 90%; border-radius: 10%; margin-bottom: 3%"
+              />
+              <h1 style="margin-bottom: 3%">
+                <span style="color: #906ba5">J</span>ason Wandrag
+              </h1>
+              <i style="text-align: center; color: rgb(58, 58, 58)"
+                >Brent-Lee is both a natural leader and developer. He learns
+                very quickly, and is constantly striving for perfection. His
+                keen eye for detail and ability to assist peers make for a great
+                team lead.</i
+              >
+            </div>
+            <!-- GODWIN DZVAPASTSVA -->
+            <div
+              style="display: flex; flex-direction: column; align-items: center"
+            >
+              <img
+                src="./images/Godwin.png"
+                alt="Picture of Godwin Dzvapastsva"
+                style="max-width: 90%; border-radius: 10%; margin-bottom: 3%"
+              />
+              <h1 style="margin-bottom: 3%">
+                <span style="color: #906ba5">G</span>odwin Dzvapastsva
+              </h1>
+              <i style="text-align: center; color: rgb(58, 58, 58)"
+                >I have often said that if I could clone Brent-lee, I’d never
+                have to worry about student discipline issues at all. He is very
+                humble, soft spoken and does his work on time. Godwin- Head of
+                Curriculum and Learning</i
+              >
+            </div>
+            <!-- ZOE ERISPE -->
+            <div
+              style="display: flex; flex-direction: column; align-items: center"
+            >
+              <img
+                src="./images/Zoe Erispe (2).JPG"
+                alt="Picture of Zoe Erispe"
+                style="max-width: 90%; border-radius: 10%; margin-bottom: 3%"
+              />
+              <h1 style="margin-bottom: 3%">
+                <span style="color: #906ba5">Z</span>oe Erispe
+              </h1>
+              <i style="text-align: center; color: rgb(58, 58, 58)"
+                >Brent Johnson has a great work ethic and always completes a
+                task with excellence. I believe he will be an asset to any
+                company that decides to hire him.</i
+              >
+            </div>
+            <!-- RONALD TERBLANCHE -->
+            <div
+              style="display: flex; flex-direction: column; align-items: center"
+            >
+              <img
+                src="./images/Ronald Terblanche (2).JPG"
+                alt="Picture of Ronald Terblanche"
+                style="max-width: 90%; border-radius: 10%; margin-bottom: 3%"
+              />
+              <h1 style="margin-bottom: 3%">
+                <span style="color: #906ba5">R</span>onald Terblanche
+              </h1>
+              <i style="text-align: center; color: rgb(58, 58, 58)"
+                >Brent has shown a passion for this field by the fact that he
+                continues to learn even when classes have ended. He’s potential
+                shines through, as he can adopt new concepts at an exceptional
+                pace. He will definitely become an amazing full-stack
+                developer</i
+              >
+            </div>
+            <!-- DEVIN FLEDERMAUS -->
+            <div
+              style="display: flex; flex-direction: column; align-items: center"
+            >
+              <img
+                src="./images/Devin Fledermaus (1).JPG"
+                alt="Picture of Devin Fledermaus"
+                style="max-width: 90%; border-radius: 10%; margin-bottom: 3%"
+              />
+              <h1 style="margin-bottom: 3%">
+                <span style="color: #906ba5">D</span>evin Fledermaus
+              </h1>
+              <i style="text-align: center; color: rgb(58, 58, 58)"
+                >LBrent is an individual with a tremendous amount of potential,
+                constantly eager to learn new skills and applying them. Quick to
+                help other's when asked to and diligent in his own work. Clearly
+                ahead of the curve and an asset to any company his within.</i
+              >
+            </div>
+          </div>
+        </section>
+
+        <!-- CONTACT ME -->
+        <section id="contact" class="content">
+          <h1><span class="pur-text">Cont</span>act</h1>
+          <form
+            action="https://formspree.io/f/mqkwpqbb"
+            method="POST"
+            id="contact-form"
+          >
+            <!-- NAME -->
+            <div class="contact-info">
+              <label for="name" class="contact-label">Name</label>
+              <input
+                type="text"
+                name="name"
+                id="name"
+                class="contact-input"
+                required
+                placeholder="Full Name"
+              />
+            </div>
+            <!-- EMAIL -->
+            <div class="contact-info">
+              <label for="email" class="contact-label">Email</label>
+              <input
+                type="email"
+                name="email"
+                id="email"
+                class="contact-input"
+                required
+                placeholder="email@domain.com"
+              />
+            </div>
+            <!-- NUMBER -->
+            <div class="contact-info">
+              <label for="number" class="contact-label">Number</label>
+              <input
+                type="tel"
+                name="number"
+                id="number"
+                class="contact-input"
+                required
+                placeholder="072 123 4567"
+              />
+            </div>
+            <!-- MESSAGE -->
+            <div class="contact-info">
+              <label for="message" class="contact-label" id="message-label"
+                >Your Message</label
+              >
+              <input
+                type="text"
+                name="message"
+                id="message"
+                class="contact-input"
+                placeholder="Your Message Here"
+              />
+            </div>
+            <!-- BUTTON -->
+            <div>
+              <button type="submit" class="contact-button">Send</button>
+            </div>
+          </form>
+        </section>
+      </div>
+    </div>
+
+    <!-- EXTERNAL SCRIPTS -->
+    <script
+      src="https://code.jquery.com/jquery-3.6.0.slim.min.js"
+      integrity="sha256-u7e5khyithlIdTpu22PHhENmPcRdFiHRjhAuHcs05RI="
+      crossorigin="anonymous"
+    ></script>
+    <script src="./scripts/OwlCarousel2-2.3.4/dist/owl.carousel.js"></script>
+    <script>
+      $(".owl-carousel").owlCarousel({
+        loop: true,
+        margin: 50,
+        autoplay: false,
+        items: 1,
+      });
+    </script>
+    <!-- AOS -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <!-- INITIALIZE AOS -->
+    <script>
+      AOS.init();
+    </script>
+    <!-- PERSONAL JS -->
+    <script src="./scripts/index.js"></script>
+  </body>
+</html>
