@@ -202,6 +202,21 @@ body {
     flex-direction: column;
   }
 
+  .nav-container {
+    margin-right: 0;
+    width: 100%;
+  }
+
+  #navbar {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .nav-blocks {
+    padding: 0;
+    width: 0;
+  }
+
   .landing {
     display: flex;
     flex-direction: row;
