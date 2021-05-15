@@ -226,11 +226,44 @@ body {
     opacity: 1;
   }
 
-  .landing-details h1,
+  .landing-details h1 {
+    font-size: 170%;
+    text-shadow: 0 0 3px violet;
+    color: #906ba5;
+  }
+
   .landing-details h4,
   .github,
   .linkedin {
     text-shadow: 0 0 3px violet;
     color: #906ba5;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .container {
+    display: grid;
+    grid-template-columns: 20% 1fr;
+    grid-template-rows: repeat(2, 1fr);
+    grid-template-areas:
+      "nav landing"
+      "... content";
+  }
+
+  .nav-container {
+    display: grid;
+    grid-area: nav;
+  }
+
+  .landing {
+    display: grid;
+    grid-area: landing;
+    width: 70vw;
+  }
+  .tab-container {
+    display: grid;
+    grid-area: content;
+    width: 70vw;
+    margin-top: 0;
   }
 }
