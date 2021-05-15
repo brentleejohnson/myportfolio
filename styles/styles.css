@@ -198,52 +198,39 @@ body {
 }
 
 @media screen and (max-width: 1000px) {
-  .container {
-    flex-direction: column;
-  }
-
-  .nav-container {
-    margin-right: 0;
-    width: 100%;
-  }
-
-  #navbar {
-    display: flex;
-    flex-direction: row;
-  }
-
-  .nav-blocks {
-    padding: 0;
-    width: 0;
-  }
-
   .landing {
-    display: flex;
-    flex-direction: row;
-    width: 700px;
-    height: 300px;
+    position: relative;
+    overflow: hidden;
+    max-height: 60vh;
   }
 
-  .landing img {
-    width: 50%;
+  .landing img,
+  .landing-details {
+    border-radius: 5px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
     height: 100%;
+    object-fit: cover;
   }
 
   .landing-details {
-    width: 100%;
-    height: 100%;
-    padding: 0;
-    justify-content: center;
+    opacity: 0;
+    background-color: rgba(0, 0, 0, 0.8);
+    transition: all 0.3s linear;
   }
 
-  .landing-details h1 {
-    font-size: 4vw;
-    font-weight: bold;
+  .landing-details:hover {
+    opacity: 1;
   }
 
-  .landing-icons {
-    margin-top: 0;
-    letter-spacing: 15px;
-    margin: 5%;
+  .landing-details h1,
+  .landing-details h4,
+  .github,
+  .linkedin {
+    text-shadow: 0 0 3px violet;
+    color: #906ba5;
   }
 }
