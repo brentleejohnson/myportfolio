@@ -129,7 +129,7 @@
 .coding-icons {
   display: flex;
   flex-wrap: wrap;
-  font-size: 700%;
+  font-size: 500%;
   color: #906ba5;
   gap: 5%;
 }
