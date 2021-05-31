@@ -232,11 +232,15 @@ body {
     color: #906ba5;
   }
 
-  .landing-details h4,
-  .github,
-  .linkedin {
+  .landing-details h4 {
     text-shadow: 0 0 3px violet;
     color: #906ba5;
+  }
+
+  .landing-details a i:hover {
+    text-shadow: 0 0 3px violet;
+    color: #906ba5;
+    transition: 0.3s all ease-in;
   }
 }
 

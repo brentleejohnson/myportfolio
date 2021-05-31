@@ -89,7 +89,8 @@
   color: #646464;
 }
 
-.proj-button:hover a {
+.proj-button a:hover {
+  text-shadow: 0 0 3px violet;
   color: #906ba5;
   font-size: larger;
   transition: 0.3s all ease-in;
