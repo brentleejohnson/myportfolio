@@ -39,6 +39,12 @@ body {
   z-index: 100;
 }
 
+#navbar {
+  margin-top: 10px;
+  border-radius: 5px;
+  overflow: hidden;
+}
+
 .navbar-blocks {
   display: flex;
   flex-direction: column;
@@ -64,12 +70,6 @@ body {
   color: #906ba5;
   text-decoration: none;
   transition: 0.3s ease-in;
-}
-
-#navbar {
-  margin-top: 10px;
-  border-radius: 5px;
-  overflow: hidden;
 }
 
 .landing {
