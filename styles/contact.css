@@ -53,17 +53,6 @@
   transition: 0.3s ease-in;
 }
 
-.footer {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  font-weight: lighter;
-  font-size: 70%;
-  color: grey;
-  width: 100%;
-  margin-top: 10%;
-}
-
 @media screen and (max-width: 1000px) {
   .footer {
     flex-direction: column;
