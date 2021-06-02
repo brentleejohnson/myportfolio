@@ -128,7 +128,6 @@
 
 .coding-icons {
   display: flex;
-  flex-wrap: wrap;
   font-size: 500%;
   color: #906ba5;
   gap: 5%;
@@ -155,5 +154,9 @@
     max-width: 100%;
     align-items: center;
     text-align: center;
+  }
+
+  .coding-icons {
+    justify-content: center;
   }
 }
