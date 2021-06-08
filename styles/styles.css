@@ -249,3 +249,16 @@ body {
     width: 100%;
   }
 }
+
+@media screen and (max-width: 700px) {
+  .container {
+    max-width: 90%;
+  }
+}
+
+/* NAVBAR <P> */
+@media screen and (max-width: 500px) {
+  .container {
+    max-width: 90%;
+  }
+}
