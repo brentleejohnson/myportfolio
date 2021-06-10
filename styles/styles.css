@@ -256,9 +256,8 @@ body {
   }
 }
 
-/* NAVBAR <P> */
 @media screen and (max-width: 500px) {
-  .container {
-    max-width: 90%;
+  .navbar-blocks span {
+    display: none;
   }
 }
