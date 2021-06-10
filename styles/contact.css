@@ -26,7 +26,7 @@
 }
 
 #message {
-  padding: 5% 3%;
+  padding-bottom: 8%;
 }
 
 .contact-input {
@@ -51,10 +51,4 @@
   background-color: violet;
   color: white;
   transition: 0.3s ease-in;
-}
-
-@media screen and (max-width: 1000px) {
-  .footer {
-    flex-direction: column;
-  }
 }
