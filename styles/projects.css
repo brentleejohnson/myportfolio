@@ -57,7 +57,15 @@
   font-size: 110%;
   text-align: center;
   margin-top: 1.5vh;
-  margin-bottom: 1vh;
+}
+
+.proj-card-info p {
+  text-shadow: 0 0 3px violet;
+  color: #906ba5;
+  font-weight: lighter;
+  font-size: 90%;
+  text-align: center;
+  margin: 3%;
 }
 
 .proj-buttons {
