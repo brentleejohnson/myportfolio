@@ -1,8 +1,28 @@
+#projects {
+  display: flex;
+  flex-direction: column;
+}
+
 #projects h1 {
   font-size: 120%;
   padding-bottom: 3vh;
   border-bottom: 1px lightgrey solid;
   color: rgb(58, 58, 58);
+}
+
+.filter-buttons {
+  margin-top: 3vh;
+  display: flex;
+  flex-direction: row;
+}
+
+.filter-buttons button {
+  border: none;
+  background-color: white;
+  color: #646464;
+  font-weight: normal;
+  font-size: 15px;
+  margin-right: 10%;
 }
 
 .proj-details {
