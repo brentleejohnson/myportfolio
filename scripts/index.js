@@ -16,7 +16,7 @@ function showTab(tabName) {
   selectedTab.classList.add("active");
 }
 
-// Filter buttons for PROJECT CARDS
+// PROJECT CARDS
 let projects = [
   {
     img: "./images/contactform.png",
@@ -103,3 +103,27 @@ function addingCards() {
 }
 
 addingCards();
+
+// ADD A TECHSTACK
+// Filtering the project cards
+/*
+function filterCards(category) {
+  let cards = document.getElementsByClassName("proj-cards");
+  if (category == "All") {
+    for (card of cards) {
+      card.style.display = "block";
+    }
+    return;
+  }
+  for (card of cards) {
+    console.log(card);
+    card.style.display = "none";
+  }
+
+  let selectedCards = document.querySelectorAll(`[techStack='${category}']`);
+
+  for (card of selectedCards) {
+    card.style.display = "block";
+  }
+}
+*/
