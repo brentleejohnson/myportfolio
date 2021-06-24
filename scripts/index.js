@@ -23,8 +23,42 @@ let projects = [
     imgAlt: "Contact Form",
     title: "Contact Form",
     description: "A glassmorphic contact form using HTML/CSS",
-    liveLink: "#",
-    githubLink: "#",
+    liveLink: "https://brentleecontactform.netlify.app/",
+    githubLink: "https://github.com/brentleejohnson/glassmorphic-contact-form",
+  },
+  {
+    img: "./images/mytimeline.png",
+    imgAlt: "My Timeline",
+    title: "My Timeline",
+    description: "My timeline using HTML/CSS with AOS",
+    liveLink: "https://brentleetimeline.netlify.app/",
+    githubLink: "https://github.com/brentleejohnson/glassmorphic-timeline",
+  },
+  {
+    img: "./images/sneakerstore.png",
+    imgAlt: "Sneaker Store",
+    title: "Sneaker Store",
+    description:
+      "A sneaker store webpage built using HTML/CSS (JS was included in the boilerplate)",
+    liveLink: "https://brentleesneakerstore.netlify.app/",
+    githubLink: "https://github.com/brentleejohnson/sneaker_store",
+  },
+  {
+    img: "./images/adding2numbers.png",
+    imgAlt: "Adding 2 Numbers",
+    title: "Adding 2 Numbers",
+    description: "A basic calculator using Python(Tkinter)",
+    liveLink:
+      "https://replit.com/@yourstepbro1/tkinteradd2numbers#tkinter_add_2_numbers.py",
+    githubLink: "https://github.com/brentleejohnson/tkinter_add_2_numbers",
+  },
+  {
+    img: "./images/BMIcalculator.png",
+    imgAlt: "BMI Calculator",
+    title: "BMI Calculator",
+    description: "A BMI calculator built using Python(Tkinter)",
+    liveLink: "https://replit.com/@yourstepbro1/tkinter-BMI-calculator#main.py",
+    githubLink: "https://github.com/brentleejohnson/tkinter-BMI-calculator",
   },
 ];
 
@@ -55,7 +89,7 @@ function createCard(card) {
         </button>
       </div>
     </div>
-  </div>
+  </div> 
   `;
   return madeCard;
 }
