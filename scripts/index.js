@@ -22,6 +22,7 @@ let projects = [
     img: "./images/contactform.png",
     imgAlt: "Contact Form",
     title: "Contact Form",
+    techStack: "HTML/CSS",
     description: "A glassmorphic contact form using HTML/CSS",
     liveLink: "https://brentleecontactform.netlify.app/",
     githubLink: "https://github.com/brentleejohnson/glassmorphic-contact-form",
@@ -30,6 +31,7 @@ let projects = [
     img: "./images/mytimeline.png",
     imgAlt: "My Timeline",
     title: "My Timeline",
+    techStack: "HTML/CSS",
     description: "My timeline using HTML/CSS with AOS",
     liveLink: "https://brentleetimeline.netlify.app/",
     githubLink: "https://github.com/brentleejohnson/glassmorphic-timeline",
@@ -38,6 +40,7 @@ let projects = [
     img: "./images/sneakerstore.png",
     imgAlt: "Sneaker Store",
     title: "Sneaker Store",
+    techStack: "HTML/CSS",
     description:
       "A sneaker store webpage built using HTML/CSS (JS was included in the boilerplate)",
     liveLink: "https://brentleesneakerstore.netlify.app/",
@@ -47,6 +50,7 @@ let projects = [
     img: "./images/adding2numbers.png",
     imgAlt: "Adding 2 Numbers",
     title: "Adding 2 Numbers",
+    techStack: "Python",
     description: "A basic calculator using Python(Tkinter)",
     liveLink:
       "https://replit.com/@yourstepbro1/tkinteradd2numbers#tkinter_add_2_numbers.py",
@@ -56,6 +60,7 @@ let projects = [
     img: "./images/BMIcalculator.png",
     imgAlt: "BMI Calculator",
     title: "BMI Calculator",
+    techStack: "Python",
     description: "A BMI calculator built using Python(Tkinter)",
     liveLink: "https://replit.com/@yourstepbro1/tkinter-BMI-calculator#main.py",
     githubLink: "https://github.com/brentleejohnson/tkinter-BMI-calculator",
@@ -64,7 +69,7 @@ let projects = [
 
 function createCard(card) {
   let madeCard = `
-  <div class="proj-cards">
+  <div class="proj-cards" techStack=${card.techStack}>
     <!-- IMAGEs -->
     <img src="${card.img}" alt="${card.imgAlt}" />
     <!-- INFO -->
@@ -104,9 +109,7 @@ function addingCards() {
 
 addingCards();
 
-// ADD A TECHSTACK
 // Filtering the project cards
-/*
 function filterCards(category) {
   let cards = document.getElementsByClassName("proj-cards");
   if (category == "All") {
@@ -126,4 +129,3 @@ function filterCards(category) {
     card.style.display = "block";
   }
 }
-*/
