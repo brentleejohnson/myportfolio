@@ -66,7 +66,7 @@ let projects = [
     githubLink: "https://github.com/brentleejohnson/tkinter-BMI-calculator",
   },
   {
-    img: "./images/contactform.png",
+    img: "./images/calculatorJS.png",
     imgAlt: "CalculatorJS",
     title: "CalculatorJS",
     techStack: "JavaScript",
