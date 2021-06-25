@@ -65,6 +65,15 @@ let projects = [
     liveLink: "https://replit.com/@yourstepbro1/tkinter-BMI-calculator#main.py",
     githubLink: "https://github.com/brentleejohnson/tkinter-BMI-calculator",
   },
+  {
+    img: "./images/contactform.png",
+    imgAlt: "CalculatorJS",
+    title: "CalculatorJS",
+    techStack: "JavaScript",
+    description: "A simple calculator using JavaScript",
+    liveLink: "https://brentleecalculatorjs.netlify.app/",
+    githubLink: "https://github.com/brentleejohnson/calculatorJS",
+  },
 ];
 
 function createCard(card) {
