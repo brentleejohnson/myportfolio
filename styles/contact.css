@@ -47,5 +47,5 @@
   border-color: 2px lightgrey solid;
   background-color: violet;
   color: white;
-  transition: 0.3s ease-in;
+  transition: 0.3s;
 }
