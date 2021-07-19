@@ -27,6 +27,15 @@
 
 .active-buttons.active {
   color: black;
+  font-size: large;
+  border-top: 2px solid violet;
+  border-bottom: 2px solid violet;
+  transition: 0.5s ease;
+}
+
+.active-buttons:hover {
+  color: black;
+  transition: 0.5s ease;
 }
 
 .proj-details {
