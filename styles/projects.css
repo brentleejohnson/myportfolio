@@ -25,6 +25,10 @@
   margin-right: 10%;
 }
 
+.active-buttons.active {
+  color: black;
+}
+
 .proj-details {
   display: flex;
   flex-wrap: wrap;

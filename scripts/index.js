@@ -138,3 +138,17 @@ function filterCards(category) {
     card.style.display = "block";
   }
 }
+
+// Active class for Filter Buttons
+let activeButtons = document.querySelectorAll(".active-buttons");
+
+for (let i = 0; i < activeButtons.length; i++) {
+  activeButtons[i].addEventListener("click", change);
+}
+
+function change(e) {
+  for (let i = 0; i < activeButtons.length; i++) {
+    activeButtons[i].classList.remove("active");
+  }
+  e.currentTarget.classList.add("active");
+}
