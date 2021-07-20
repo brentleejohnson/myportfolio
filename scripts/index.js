@@ -74,6 +74,15 @@ let projects = [
     liveLink: "https://brentleecalculatorjs.netlify.app/",
     githubLink: "https://github.com/brentleejohnson/calculatorJS",
   },
+  {
+    img: "./images/pokedex.png",
+    imgAlt: "Pokedex",
+    title: "Pokedex",
+    techStack: "JavaScript",
+    description: "A Pokemon deck using JavaScript",
+    liveLink: "https://brentleepokedex.netlify.app/",
+    githubLink: "https://github.com/brentleejohnson/js-pokedex-api",
+  },
 ];
 
 function createCard(card) {
