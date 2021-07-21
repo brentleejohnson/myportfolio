@@ -134,20 +134,11 @@ body {
   letter-spacing: 25px;
 }
 
-.github {
+.landing-icon {
   color: #323232;
 }
 
-.github:hover {
-  color: #906ba5;
-  transition: 0.3s ease-in;
-}
-
-.linkedin {
-  color: #323232;
-}
-
-.linkedin:hover {
+.landing-icon:hover {
   color: #906ba5;
   transition: 0.3s ease-in;
 }
