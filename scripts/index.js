@@ -112,6 +112,46 @@ let projects = [
     liveLink: "https://brentleepokedex.netlify.app/",
     githubLink: "https://github.com/brentleejohnson/js-pokedex-api",
   },
+  {
+    img: "./images/chuck-norris.png",
+    imgAlt: "Chuck Norris",
+    title: "Chuck Norris",
+    techStack: "Python",
+    description: "Chuck Norris jokes using an API",
+    liveLink:
+      "https://replit.com/@brentleejohnson/python-api-chucknorrisjoke-requests#.replit",
+    githubLink:
+      "https://github.com/brentleejohnson/python-api-chucknorrisjoke-requests",
+  },
+  {
+    img: "./images/currency-converter.png",
+    imgAlt: "Currency Converter",
+    title: "Currency Converter",
+    techStack: "Python",
+    description: "A currency converter using an API",
+    liveLink:
+      "https://replit.com/@brentleejohnson/python-currency-converter#.replit",
+    githubLink: "https://github.com/brentleejohnson/python-currency-converter",
+  },
+  {
+    img: "./images/python-lotto-EOMP.png",
+    imgAlt: "Lotto Game",
+    title: "Lotto Game",
+    techStack: "Python",
+    description: "A lotto game made with Python(Tkinter)",
+    liveLink: "https://replit.com/@brentleejohnson/python-lotto-EOMP#.replit",
+    githubLink: "https://github.com/brentleejohnson/python-lotto-EOMP",
+  },
+  {
+    img: "./images/mysql-python.png",
+    imgAlt: "MySQL",
+    title: "MySQL",
+    techStack: "Python",
+    description: "A Python(Tkinter) task using Databases from MySQL",
+    liveLink:
+      "https://replit.com/@brentleejohnson/mysql-from-python-EOMP#.replit",
+    githubLink: "https://github.com/brentleejohnson/mysql-from-python-EOMP",
+  },
 ];
 
 function createCard(card) {
