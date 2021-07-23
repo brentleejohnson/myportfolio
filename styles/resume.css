@@ -130,6 +130,12 @@
 .coding-icon {
   font-size: 500%;
   color: #906ba5;
+  text-align: center;
+}
+
+.coding-icon-des {
+  font-size: 15px;
+  text-align: center;
 }
 
 @media screen and (max-width: 1200px) {
