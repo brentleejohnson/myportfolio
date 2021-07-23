@@ -124,9 +124,12 @@
   display: flex;
   flex-wrap: wrap;
   margin-top: 15px;
+  gap: 40px;
+}
+
+.coding-icon {
   font-size: 500%;
   color: #906ba5;
-  gap: 40px;
 }
 
 @media screen and (max-width: 1200px) {
