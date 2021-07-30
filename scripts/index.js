@@ -142,16 +142,6 @@ let projects = [
     liveLink: "https://replit.com/@brentleejohnson/python-lotto-EOMP#.replit",
     githubLink: "https://github.com/brentleejohnson/python-lotto-EOMP",
   },
-  {
-    img: "./images/mysql-python.png",
-    imgAlt: "MySQL",
-    title: "MySQL",
-    techStack: "Python",
-    description: "A Python(Tkinter) task using Databases from MySQL",
-    liveLink:
-      "https://replit.com/@brentleejohnson/mysql-from-python-EOMP#.replit",
-    githubLink: "https://github.com/brentleejohnson/mysql-from-python-EOMP",
-  },
 ];
 
 function createCard(card) {
