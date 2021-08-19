@@ -149,9 +149,10 @@ body {
   margin: 1%;
 }
 
+/* CHANGED HEIGHT TO VIEW ON PERSONAL LAPTOP */
 .tab-container {
   width: 37vw;
-  height: 68vh;
+  height: 80vh;
   position: relative;
   margin-top: 10px;
   margin-bottom: 10px;
