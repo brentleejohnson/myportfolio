@@ -16,6 +16,18 @@ function showTab(tabName) {
   selectedTab.classList.add("active");
 }
 
+// ABOUT ME - AUTO AGE
+function autoAge() {
+  let now = new Date();
+  let birth = new Date("2002-02-28");
+  let difference = now - birth;
+  // Dates are set from 1970, so remove that to get the year
+  let age = new Date(difference).getFullYear() - 1970;
+  // Age is 19
+  document.getElementById("myAge").innerHTML = age;
+}
+autoAge();
+
 // PROJECT CARDS
 let projects = [
   {
