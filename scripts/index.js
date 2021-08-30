@@ -116,15 +116,6 @@ let projects = [
     githubLink: "https://github.com/brentleejohnson/calculatorJS",
   },
   {
-    img: "./images/pokedex.png",
-    imgAlt: "Pokedex",
-    title: "Pokedex",
-    techStack: "JavaScript",
-    description: "A Pokemon deck using JavaScript",
-    liveLink: "https://brentleepokedex.netlify.app/",
-    githubLink: "https://github.com/brentleejohnson/js-pokedex-api",
-  },
-  {
     img: "./images/chuck-norris.png",
     imgAlt: "Chuck Norris",
     title: "Chuck Norris",
@@ -153,6 +144,15 @@ let projects = [
     description: "A lotto game made with Python(Tkinter)",
     liveLink: "https://replit.com/@brentleejohnson/python-lotto-EOMP#.replit",
     githubLink: "https://github.com/brentleejohnson/python-lotto-EOMP",
+  },
+  {
+    img: "./images/pokedex.png",
+    imgAlt: "Pokedex",
+    title: "Pokedex",
+    techStack: "JavaScript",
+    description: "A Pokemon deck using JavaScript",
+    liveLink: "https://brentleepokedex.netlify.app/",
+    githubLink: "https://github.com/brentleejohnson/js-pokedex-api",
   },
 ];
 
