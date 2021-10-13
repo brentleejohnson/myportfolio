@@ -35,6 +35,11 @@
   border-bottom: 1px purple solid;
 }
 
+.contact-input:focus {
+  outline: none;
+  border: none;
+}
+
 .contact-button {
   text-transform: uppercase;
   font-weight: bold;
