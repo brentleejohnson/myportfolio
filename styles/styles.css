@@ -136,11 +136,11 @@ body {
 
 .landing-icon {
   color: #323232;
+  transition: 0.3s ease-in;
 }
 
 .landing-icon:hover {
   color: #906ba5;
-  transition: 0.3s ease-in;
 }
 
 .landing footer {
