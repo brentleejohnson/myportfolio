@@ -42,16 +42,17 @@
 }
 
 .contact-button {
+  background: white;
   text-transform: uppercase;
   font-weight: bold;
-  border-color: 1px #323232 solid;
+  border: 1px purple solid;
   padding: 30% 50%;
   text-align: center;
+  transition: ease-in 0.3s;
 }
 
 .contact-button:hover {
   border-color: 2px lightgrey solid;
   background-color: violet;
   color: white;
-  transition: 0.3s;
 }
