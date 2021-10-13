@@ -51,8 +51,7 @@
   transition: ease-in 0.3s;
 }
 
-.contact-button:hover {
-  border-color: 2px lightgrey solid;
-  background-color: violet;
+/* .contact-button:hover {
+  background: linear-gradient(60deg, #e73c7e, #23a6d5, #23d5ab);
   color: white;
-}
+} */
