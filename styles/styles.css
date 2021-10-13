@@ -60,6 +60,7 @@ body {
   border-bottom: 1px lightgrey solid;
   justify-content: center;
   align-items: center;
+  transition: 0.3s ease-in;
 }
 
 .nav-container i {
@@ -69,7 +70,6 @@ body {
 .navbar-blocks:hover {
   color: #906ba5;
   text-decoration: none;
-  transition: 0.3s ease-in;
 }
 
 .landing {
