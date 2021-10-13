@@ -38,6 +38,7 @@
 .contact-input:focus {
   outline: none;
   border: none;
+  border-bottom: 1px purple solid;
 }
 
 .contact-button {
