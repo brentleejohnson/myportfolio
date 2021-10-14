@@ -119,6 +119,7 @@
 
 .proj-button a {
   color: #646464;
+  transition: 0.3s all ease-in;
 }
 
 .proj-button a:visited {
@@ -129,7 +130,6 @@
   text-shadow: 0 0 3px violet;
   color: #906ba5;
   /* font-size: larger; */
-  transition: 0.3s all ease-in;
 }
 
 @media screen and (max-width: 1200px) {
