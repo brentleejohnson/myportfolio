@@ -179,25 +179,18 @@ body {
   opacity: 1;
 }
 
-/* @media screen and (max-width: 1520px) {
-  .landing {
-    height: 600px;
-  }
-
-  .landing-details {
-    height: 35vh;
-  }
-
-  .landing-icons {
-    padding: 0;
-  }
+.content.active::-webkit-scrollbar {
+  width: 1em;
 }
 
-@media screen and (max-width: 1400px) {
-  .landing {
-    width: 33vw;
-  }
-} */
+.content.active::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+}
+
+.content.active::-webkit-scrollbar-thumb {
+  background-color: darkgrey;
+  outline: 1px solid slategrey;
+}
 
 @media screen and (max-width: 1000px) {
   .container {
