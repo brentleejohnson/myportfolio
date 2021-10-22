@@ -150,7 +150,7 @@ let projects = [
     imgAlt: "Pokedex",
     title: "Pokedex",
     techStack: "JavaScript",
-    description: "A Pokemon deck using JavaScript",
+    description: "A Pokemon deck fetching an API with JavaScript",
     liveLink: "https://brentleepokedex.netlify.app/",
     githubLink: "https://github.com/brentleejohnson/js-pokedex-api",
   },
