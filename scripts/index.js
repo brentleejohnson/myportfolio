@@ -156,6 +156,7 @@ let projects = [
   },
 ];
 
+// TEST
 function createCard(card) {
   let madeCard = `
   <div class="proj-cards" techStack=${card.techStack}>
