@@ -23,7 +23,7 @@ function autoAge() {
   let difference = now - birth;
   // Dates are set from 1970, so remove that to get the year
   let age = new Date(difference).getFullYear() - 1970;
-  // Age is 19
+  // Age is 20
   document.getElementById("myAge").innerHTML = age;
 }
 autoAge();
