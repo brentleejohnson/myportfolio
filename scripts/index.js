@@ -154,6 +154,15 @@ let projects = [
     liveLink: "https://brentleepokedex.netlify.app/",
     githubLink: "https://github.com/brentleejohnson/js-pokedex-api",
   },
+  {
+    img: "./images/blurryloader.JPG",
+    imgAlt: "Blurry Loader",
+    title: "Blurry Loader",
+    techStack: "JavaScript",
+    description: "A simple blurry loader using JavaScript",
+    liveLink: "https://brentleeblurryloader.netlify.app/",
+    githubLink: "https://github.com/brentleejohnson/blurry-loader",
+  },
 ];
 
 // TEST
