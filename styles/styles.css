@@ -192,6 +192,7 @@ body {
   outline: 1px solid slategrey;
 }
 
+/* RESPONSIVENESS */
 @media screen and (max-width: 1000px) {
   .container {
     flex-direction: column;
